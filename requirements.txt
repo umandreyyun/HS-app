@@ -1,19 +1,8 @@
-import streamlit as st
-import plotly.express as px
-import pandas as pd
-import openpyxl
-import io
-import os
-from pathlib import Path
-import matplotlib.pyplot as plt
-from fpdf import FPDF
-import base64
-from datetime import datetime
-import re
-import sys
-from streamlit.web import cli as stcli
-import sqlite3
-import shutil
-from datetime import datetime, timedelta
-import sqlite3
-import shutil
+streamlit==1.32.0
+plotly==5.18.0
+pandas==2.1.4
+openpyxl==3.1.2
+matplotlib==3.8.2
+fpdf2==2.7.7
+sqlite3==2.6.0
+shutil==1.7.0
