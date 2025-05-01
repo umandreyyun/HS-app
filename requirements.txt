@@ -1,6 +1,19 @@
-streamlit
-plotly
-pandas
-openpyxl
-matplotlib
-fpdf
+import streamlit as st
+import plotly.express as px
+import pandas as pd
+import openpyxl
+import io
+import os
+from pathlib import Path
+import matplotlib.pyplot as plt
+from fpdf import FPDF
+import base64
+from datetime import datetime
+import re
+import sys
+from streamlit.web import cli as stcli
+import sqlite3
+import shutil
+from datetime import datetime, timedelta
+import sqlite3
+import shutil
